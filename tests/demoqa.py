@@ -40,6 +40,7 @@ def test_register_student():
     browser.all('[id^="react-select-4-option"]').element_by(have.exact_text('Gurgaon')).click()
 
     browser.element('#submit').click()
+    browser.element('.modal-content').should(have.text('Thanks for submitting the form'))
 
     browser.element('.modal-content table').all('td:nth-child(2)').should(
         have.exact_texts(
