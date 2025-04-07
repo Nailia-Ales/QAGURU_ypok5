@@ -47,11 +47,11 @@ def test_register_student():
             'email@example.com',
             'Female',
             '1234567890',
-            '14 February 1999',
+            '14 February,1999',
             'Maths',
             'Sports',
             'screen.png',
-            'NCR Gurgaon',
             'Rostov, Lenina 1',
+            'NCR Gurgaon',
         )
     )
